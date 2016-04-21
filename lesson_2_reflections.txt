@@ -2,3 +2,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	git init initializes a repository (aka a folder), which means that it is now going to keep track of any commits you will make. If you do not init, then there will be no commits and no history will be kept.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is sort of like an "are you sure?" question, or loading zone, where you can review the files you are about to commit. It allows you to visually see which files you have added (and the rest of the status shows you the remaining files as well), whereas the working directory is all of your files that you are working on; your workspace.
+
